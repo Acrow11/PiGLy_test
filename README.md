@@ -34,7 +34,7 @@ Tailwind CSS: モダンなCSSフレームワーク（オプション）
 
 ##ER図
 Untitled (1).png
-![ER図](./ER-diagram.png)
+https://github.com/Acrow11/PiGLy_test/blob/main/Untitled%20(1).png?raw=true
 
 
 
