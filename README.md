@@ -32,9 +32,8 @@ Docker: コンテナ化された開発環境
 Bootstrap: フロントエンドスタイル
 Tailwind CSS: モダンなCSSフレームワーク（オプション）
 
-##ER図
-Untitled (1).png
-https://github.com/Acrow11/PiGLy_test/blob/main/Untitled%20(1).png?raw=true
+## ER図
+![ER図](https://github.com/Acrow11/PiGLy_test/blob/main/ER-diagram.png?raw=true)
 
 
 
