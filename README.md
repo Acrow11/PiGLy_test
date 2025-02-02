@@ -9,9 +9,10 @@
    ```bash
    git clone git@github.com:Acrow11/PiGLy_test.git
    
-2,必要な依存関係をインストールします。
 
-   composer install
+2,必要な依存関係をインストールします。
+　　composer install
+
 3, .envファイルをコピーし、必要な設定を行います。
     cp .env.example .env
 
@@ -19,13 +20,9 @@
 
   docker-compose up -d
 5,マイグレーションを実行し、データベースを作成します。
-
 php artisan migrate
 6,ダミーデータをシーディングします。
-
  php artisan db:seed
-
-
 
 ##使用技術
 Laravel: PHPフレームワーク（バージョン 9.x）
