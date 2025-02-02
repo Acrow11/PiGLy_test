@@ -17,8 +17,7 @@
     cp .env.example .env
 
 4,Dockerコンテナを起動します。
-
-  docker-compose up -d
+docker-compose up -d
 5,マイグレーションを実行し、データベースを作成します。
 php artisan migrate
 6,ダミーデータをシーディングします。
