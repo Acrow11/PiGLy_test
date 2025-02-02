@@ -1,2 +1,8 @@
+# MacOS のシステムファイルを無視
+.DS_Store
 
+# Docker データファイルを無視
+docker/mysql/data/
+
+# CodeGPT 用のファイルを無視
 .codegpt

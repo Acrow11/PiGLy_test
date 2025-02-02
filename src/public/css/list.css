@@ -1,0 +1,508 @@
+/* 全体設定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ヘッダー */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 15px 20px;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.navbar-left {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-right .btn {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+/* 目標体重・現在の体重情報 */
+.weight-info {
+  /* Frame 466 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 100px;
+  
+    width: 1120px;
+    height: 154px;
+  
+    background: #FFFFFF;
+    border-radius: 10px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+  
+    /* Frame 463 */
+  .highlight1{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    margin: 0 auto;
+    width: 230px;
+    height: 94px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  }
+    /* 目標体重 */
+  .highlight2{
+    width: 64px;
+    height: 24px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  }
+    /* Frame 462 */
+  .highlight3{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 9px;
+  
+    width: 126px;
+    height: 60px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  }
+    /* 45.0 */
+  
+    width: 97px;
+    height: 60px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  
+    /* kg */
+  
+    width: 20px;
+    height: 40px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  
+    /* Vector 10 */
+  
+    margin: 0 auto;
+    width: 0px;
+    height: 70px;
+  
+    border: 1px solid #CDCDCD;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  
+    /* Frame 465 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    margin: 0 auto;
+    width: 230px;
+    height: 94px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  
+  
+    /* 目標まで */
+  
+    width: 64px;
+    height: 24px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  
+    /* Frame 462 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 9px;
+  
+    width: 135px;
+    height: 60px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  
+    /* -1.5 */
+  
+    width: 85px;
+    height: 60px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  
+    /* kg */
+  
+    width: 20px;
+    height: 40px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  
+    /* Vector 11 */
+  
+    margin: 0 auto;
+    width: 0px;
+    height: 70px;
+  
+    border: 1px solid #CDCDCD;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  
+  
+    /* Frame 466 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    margin: 0 auto;
+    width: 230px;
+    height: 94px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+  
+  
+    /* 最新体重 */
+  
+    width: 64px;
+    height: 24px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  
+    /* Frame 462 */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 9px;
+  
+    width: 135px;
+    height: 60px;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+  
+    /* 46.5 */
+  
+    width: 97px;
+    height: 60px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+  
+    /* kg */
+  
+    width: 20px;
+    height: 40px;
+  
+    font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+  
+    color: #333333;
+  
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.weight-info .highlight {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* 検索フォーム */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* バリデーションエラー */
+p {
+  color: red;
+}
+
+/* データ一覧 */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #CDCDCD;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f1f1f1;
+}
+
+/* アクションボタン */
+.table td a,
+.table td form button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table td a {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+}
+
+.table td a:hover {
+  background-color: #e0a800;
+}
+
+.table td form button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.table td form button:hover {
+  background-color: #c82333;
+}
+
+/* ボタンの配置 */
+.actions {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.actions .btn {
+  padding: 10px 15px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+/* リセットボタン */
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
