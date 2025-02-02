@@ -7,8 +7,8 @@
 
 1. プロジェクトをクローンします。
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   git clone git@github.com:Acrow11/PiGLy_test.git
+   
 2,必要な依存関係をインストールします。
 
    composer install
